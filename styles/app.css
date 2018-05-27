@@ -1,0 +1,130 @@
+@font-face {
+    font-family: fashionFetish;
+    src: url(font/fashion_fetish/Fashion_Fetish_Regular.ttf);
+}
+
+html, body {
+    font-family: fashionFetish;
+}
+
+.hide {
+	display: none;
+}
+/* PAGE BACKGROUNDS - START */
+
+#P01{
+	background: url(images/bg1.jpg) no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+#P02{
+	background: url(images/bg2.jpg) no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+#P03{
+	background-image: url(images/bg3.jpg);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+#P04{
+	background-image: url(images/bg4.jpg);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+#P05{
+	background-image: url(images/bg5.jpg);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+#P06{
+	background-image: url(images/bg6.jpg);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+/* PAGE BACKGROUNDS - END */
+
+
+.first-route-element-top {
+	padding-top: 100px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.nav-bg-show {
+	background-color: rgba(255, 255, 255, 0.8);
+
+	-webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.nav-bg-hide {
+	background-color: none;
+
+	-webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.nav-link {
+	color: #000042 !important;
+}
+
+.custom-bg-1 {
+	color: #000042;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 0.3rem;
+}
