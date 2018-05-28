@@ -3,6 +3,11 @@
     src: url(font/fashion_fetish/Fashion_Fetish_Regular.ttf);
 }
 
+@font-face {
+    font-family: SpringTime;
+    src: url(font/spring_time_2/SpringTime_Personal_Use.ttf);
+}
+
 html, body {
     font-family: fashionFetish;
 }
@@ -127,4 +132,15 @@ html, body {
 	color: #000042;
 	background: rgba(255, 255, 255, 0.7);
 	border-radius: 0.3rem;
+}
+
+
+.page-title {
+	font-family: SpringTime;
+	color: #000042;
+}
+
+.greyscale {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
