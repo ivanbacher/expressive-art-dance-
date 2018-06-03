@@ -144,3 +144,22 @@ html, body {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
+
+.sold-out-text {
+	text-decoration: line-through;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.extra-small {
+	font-size: 60%;
+}
+
+.circle{
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	background:#000042
+}
