@@ -14,8 +14,6 @@
     <image:loc>https://www.expressiveartdance.com/images/logo.png</image:loc>
     <image:title>Expressive Art Dance</image:title>
   </image:image>
-  <priority>1.0</priority>
-  <xml:link rel="alternate" href="https://www.expressiveartdance.com/#/home"/>
 </url>
 <url>
   <loc>https://www.expressiveartdance.com/#/about</loc>
