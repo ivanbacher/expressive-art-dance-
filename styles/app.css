@@ -163,3 +163,8 @@ html, body {
 	border-radius:10px;
 	background:#000042
 }
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
