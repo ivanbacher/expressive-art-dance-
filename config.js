@@ -202,6 +202,55 @@ System.config({
       "indexof": "npm:indexof@0.0.1"
     }
   },
+  depCache: {
+    "app.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "jquery"
+    ],
+    "main.js": [
+      "bootstrap/dist/css/bootstrap.min.css!",
+      "bootstrap"
+    ],
+    "modals/S04M.js": [
+      "aurelia-framework",
+      "../services/fetch-service.js"
+    ],
+    "pages/P01.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "jquery"
+    ],
+    "pages/P02.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "jquery"
+    ],
+    "pages/P03.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "jquery"
+    ],
+    "pages/P04.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "../services/fetch-service.js",
+      "jquery"
+    ],
+    "pages/P05.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "jquery"
+    ],
+    "pages/P06.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "jquery"
+    ],
+    "services/fetch-service.js": [
+      "aurelia-fetch-client"
+    ]
+  },
   bundles: {
     "app-build.js": [
       "app.html!github:systemjs/plugin-text@0.0.11.js",
@@ -325,55 +374,6 @@ System.config({
       "npm:bootstrap@4.1.1/dist/js/bootstrap.js",
       "npm:jquery@2.2.4.js",
       "npm:jquery@2.2.4/dist/jquery.js"
-    ]
-  },
-  depCache: {
-    "app.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "jquery"
-    ],
-    "main.js": [
-      "bootstrap/dist/css/bootstrap.min.css!",
-      "bootstrap"
-    ],
-    "modals/S04M.js": [
-      "aurelia-framework",
-      "../services/fetch-service.js"
-    ],
-    "pages/P01.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "jquery"
-    ],
-    "pages/P02.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "jquery"
-    ],
-    "pages/P03.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "jquery"
-    ],
-    "pages/P04.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "../services/fetch-service.js",
-      "jquery"
-    ],
-    "pages/P05.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "jquery"
-    ],
-    "pages/P06.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "jquery"
-    ],
-    "services/fetch-service.js": [
-      "aurelia-fetch-client"
     ]
   }
 });
