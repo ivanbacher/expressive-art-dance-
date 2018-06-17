@@ -168,3 +168,8 @@ html, body {
   color: inherit;
   text-decoration: inherit;
 }
+
+.book-btn {
+	border: 1px solid #000042;
+	background-color: #000042;
+}
